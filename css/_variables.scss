@@ -3,7 +3,7 @@
 /**
  * Style variables
  */
-$baseFontFamily: -apple-system, BlinkMacSystemFont, 'open_sanslight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$baseFontFamily: -apple-system,Roboto, BlinkMacSystemFont, 'open_sanslight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $hangupColor: #bf2117;
 $hangupFontSize: 2em;
 
@@ -170,7 +170,7 @@ $watermarkHeight: 74px;
  */
 $welcomePageDescriptionColor: #fff;
 $welcomePageFontFamily: inherit;
-$welcomePageBackground: linear-gradient(-90deg, #1251AE 0%, #0074FF 50%, #1251AE 100%);
+$welcomePageBackground: linear-gradient(-90deg, #1251ae 0%, #0074FF 50%, #1251AE 100%);
 $welcomePageTitleColor: #fff;
 
 $welcomePageHeaderBackground: none;

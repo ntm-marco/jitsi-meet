@@ -187,9 +187,10 @@ class WelcomePage extends AbstractWelcomePage {
                         <h1 className = 'header-text-title'>
                             { t('welcomepage.title') }
                         </h1>
-                        <p className = 'header-text-description'>
-                            { t('welcomepage.appDescription',
-                                { app: APP_NAME }) }
+                        <p className = 'welcome-link'>
+                            <a
+                                href = 'https://www.hklawsoc.org.hk/pub_e/default.asp'
+                                target = '_blank'>The Law Society of Hong Kong</a>
                         </p>
                     </div>
                     <div id = 'enter_room'>
@@ -229,6 +230,11 @@ class WelcomePage extends AbstractWelcomePage {
                         className = 'welcome-page-content'
                         ref = { this._setAdditionalContentRef } />
                     : null }
+                <div>
+                    <img
+                        className = { 'securli' }
+                        src = 'images/securli.png' />
+                </div>
             </div>
         );
     }
